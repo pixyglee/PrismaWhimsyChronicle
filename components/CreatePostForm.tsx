@@ -29,7 +29,6 @@ export default function CreatePostForm() {
             const catNames = await res.json();
             setCategories(catNames);
         }
-
         fetchAllCategories()
     }, [])
 
