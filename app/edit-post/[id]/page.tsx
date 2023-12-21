@@ -19,9 +19,9 @@ const getPost = async (id: string): Promise<TPost | null> => {
             return post;
         }
 
-    } catch (error) {
+    } catch (err) {
 
-        console.log(error)
+        console.log(err)
 
     }
 
